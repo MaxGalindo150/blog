@@ -13,11 +13,11 @@ redirect_from:
 
     <p>🔬 My research pursuits revolve around two primary areas: crafting artificially intelligent agents leveraging reinforcement learning techniques, and devising algorithms geared towards optimization.</p>
 
-    <p> 📚 I'm currently working towards my Master's Thesis in the field of Reinforcement Learning an Multiobjective Optimization.</p>
+    <p> 📚 I'm currently working towards my Master's Thesis in the field of Reinforcement Learning and Multiobjective Optimization.</p>
 
     <p> 🤖 I'm also keen on contributing to projects in the realm of Machine Learning, particularly those focused on Computer Vision and Natural Language Processing.</p>
   </div>
-  <img src="images/robot.jpeg" alt="Descripción de la imagen" style="margin-left: 20px;">
+  <!-- <img src="images/robot.jpeg" alt="Descripción de la imagen" style="margin-left: 20px;"> -->
 </div>
 
 # Selected Experience
