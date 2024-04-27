@@ -11,37 +11,60 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.S. in Computer Science, UNAM, 2025 (expected)
+* B.S. in Physics, UAZ, 2022
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Spring 2024: CEO
+  * AM Technology Services
+  * Duties includes: Development of custom enterprise software for various industries, integration and analysis of data to inform strategic decisions. Generation of reports and visualizations to summarize key findings, process optimization and recommendations for improving efficiency, strategic advice based on data analysis for business growth.
+  
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2022:
+  * Universidad Nacional Autónoma de México
+  * Duties included: Development of a script for the automation and remote control of a telescope at the National Observatory of Ensenada, Baja California, Mexico.
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Spring-Fall 2022: Research Assistant
+  * Universidad Autónoma de Zacatecas
+  * Duties includes: Development of a program to create simulations of black holes in various gravitational models.
+
+* Summer 2021: Research Assistant (Data Scientist)
+  * Benemerita Universidad Autónoma de Puebla
+  * Duties included: Led data collection, preprocessing, and analysis for atmospheric showers caused by cosmic particles. Applied advanced machine learning for insights, developed impactful visualizations, and utilized predictive models to enhance understanding of cosmic events in high-energy physics research.
+  
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Data Science
+* AI, ML
+* Software Development
+* Programming Language
+  * Python
+  * Java
+  * C/C++
+  * JavaScript
+* Frameworks And Libreries
+  * Tensor Flow
+  * Pytorch
+  * Scikit-Learn
+  * Pandas
+  * React
+  * Express
+* Database
+  * MySql
+  * Postgres
+  * Sql-Server
+* Other Software/Tools
+  * Tableau
+  * Power BI
+  * AWS
+* Certificates
+  * Data Science
 
-Publications
+
+
+<!-- Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
@@ -57,8 +80,8 @@ Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Mentor in the physics tutoring program, providing guidance and support to first-year students.

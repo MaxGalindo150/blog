@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "TripAdvisor-Restaurant-Data-Scraping-Notebook"
+excerpt: "This repository serves as a storage for a web scraping project aimed at gathering information from the TripAdvisor website regarding restaurants in Mexico City.<br/><img src='../images/trip.pn'>"
 collection: portfolio
 ---
 
