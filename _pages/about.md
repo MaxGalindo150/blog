@@ -33,4 +33,4 @@ I have cultivated profound expertise in autonomous research, adeptly replicating
 
 To accompany this work, I have submitted a blog post to communicating the paper's theory and my results.
 
-Feel free to look at my specific portfolio entry.
+Feel free to look at my specific [Blog Post section](https://maxgalindo150.github.io/blog/year-archive/).
