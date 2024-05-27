@@ -1,6 +1,6 @@
 ---
 title: "Analysis of Contaminant Concentration Trends in Mexico City (2015-2023) (CODE)"
-excerpt: "Code for analysis of RAMA data base <br/><img src='/images/angel'>"
+excerpt: "Code for analysis of RAMA data base. <br/><img src='/images/angel'>"
 collection: portfolio
 ---
 
