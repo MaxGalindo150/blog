@@ -545,8 +545,8 @@ model = AutoModelForTokenClassification.from_pretrained(CFG.preset, id2label=CFG
     You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
 
 
-## 📏 Definition of Evaluation Metrics (compute_metrics)
-Now, we define a function compute_metrics to compute evaluation metrics for our model after each training iteration. Here's how it works:
+## 📏 Definition of Evaluation Metrics
+Now, we define a function `compute_metrics` to compute evaluation metrics for our model after each training iteration. Here's how it works:
 
 
 ```python
