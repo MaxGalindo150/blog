@@ -1,6 +1,6 @@
 ---
 title: 'Playing Atari Games with Reinforcement Learning'
-date: 2024-05-28
+date: 2024-06-15
 permalink: /posts/2012/08/blog-post-4/
 tags:
   - AI
