@@ -256,7 +256,7 @@ CFG.label2id
 
 
 ```python
-# Aplicar el mapeo a la columna 'labels'
+
 data['ner_tags'] = data['labels'].apply(lambda x: [CFG.label2id[i] for i in x])
 data = data.drop(columns=['labels'])
 data.head()
@@ -343,10 +343,10 @@ In the following code snippet, we will split the dataset into training and testi
 
 
 ```python
-# Divide el DataFrame en conjuntos de entrenamiento y prueba
+
 train_data, test_data = train_test_split(data, test_size=0.1, random_state=CFG.seed)
 
-# Divide el conjunto de entrenamiento en conjuntos de entrenamiento y validación
+
 train_data, val_data = train_test_split(train_data, test_size=0.25, random_state=CFG.seed)
 ```
 
@@ -356,12 +356,12 @@ To streamline data preprocessing, we use the `Dataset` module to efficiently enc
 
 
 ```python
-# Carga los datos en la biblioteca `datasets`
+
 train_dataset = Dataset.from_pandas(train_data)
 val_dataset = Dataset.from_pandas(val_data)
 test_dataset = Dataset.from_pandas(test_data)
 
-# Crea un DatasetDict
+
 raw_data = DatasetDict({
     'train': train_dataset,
     'validation': val_dataset,
