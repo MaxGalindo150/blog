@@ -1,11 +1,11 @@
 ---
-title: "PII Data Detection with BERT (*Bidirectional Representations from Transformers*)"
+title: "PII Data Detection with BERT (*Bidirectional Encoder Representations from Transformers*)"
 excerpt: "Here's how to train a model to recognize Personally Identifiable Information (PII)."
 collection: portfolio
 ---
 
 
-# PII Data Detection with BERT (*Bidirectional Representations from Transformers*)
+
 
 The primary task of this project falls under **Token Classification**, also known as **Named Entity Recognition (NER)**. Unlike Text Classification, where a single label is assigned to an entire text, Token Classification involves labeling each word or token within a text with the appropriate category.
 
