@@ -5,6 +5,7 @@ collection: portfolio
 ---
 
 
+# PII Data Detection with BERT (*Bidirectional Representations from Transformers*)
 
 The primary task of this project falls under **Token Classification**, also known as **Named Entity Recognition (NER)**. Unlike Text Classification, where a single label is assigned to an entire text, Token Classification involves labeling each word or token within a text with the appropriate category.
 
@@ -946,66 +947,31 @@ It’s very easy to test it on a new sample:
 
 
 ```python
-token_classifier('My name is Frank, my email is frank@gmail.com, my phone number is 123-456-7890, and my username is frank123.')
+token_classifier('My name is Frank, my email is frank@gmail.com.')
 ```
 
 
 
 
     [{'entity_group': 'NAME_STUDENT',
-      'score': 0.7336583,
+      'score': 0.5923071,
       'word': 'Frank',
       'start': 11,
       'end': 16},
      {'entity_group': 'EMAIL',
-      'score': 0.74826264,
+      'score': 0.62551314,
       'word': 'f',
       'start': 30,
       'end': 31},
      {'entity_group': 'EMAIL',
-      'score': 0.7828397,
+      'score': 0.74226135,
       'word': 'g',
       'start': 36,
-      'end': 37},
-     {'entity_group': 'ID_NUM',
-      'score': 0.38666254,
-      'word': '123',
-      'start': 66,
-      'end': 69},
-     {'entity_group': 'PHONE_NUM',
-      'score': 0.23940054,
-      'word': '-',
-      'start': 69,
-      'end': 70},
-     {'entity_group': 'ID_NUM',
-      'score': 0.43555441,
-      'word': '45',
-      'start': 70,
-      'end': 72},
-     {'entity_group': 'ID_NUM',
-      'score': 0.28009352,
-      'word': '##6',
-      'start': 72,
-      'end': 73},
-     {'entity_group': 'PHONE_NUM',
-      'score': 0.19382228,
-      'word': '-',
-      'start': 73,
-      'end': 74},
-     {'entity_group': 'ID_NUM',
-      'score': 0.3872751,
-      'word': '78',
-      'start': 74,
-      'end': 76},
-     {'entity_group': 'EMAIL',
-      'score': 0.40097365,
-      'word': 'f',
-      'start': 99,
-      'end': 100}]
+      'end': 37}]
 
 
 
-The model correctly identifies the student's name, email, phone number, and username. Although it occasionally misses in some sentences, overall, it performs well in detecting personal information with relatively minor errors.
+The model correctly identifies the student's name, and email. Although it occasionally misses in some sentences, overall, it performs well in detecting personal information with relatively minor errors.
 
 
 ```python
@@ -1032,4 +998,6 @@ trainer.evaluate()
 ## ✌️ Conclusion
 
 In this project, we implemented a natural language processing (NLP) and machine learning approach for automated detection of personally identifiable information (PII) in educational documents. By utilizing a pretrained BERT model and annotating training data in BIO format, we successfully trained a model that performed remarkably well in identifying PII in educational texts. The results achieved an average precision, recall, and F1-score of 0.842, 0.849, and 0.845, respectively, indicating strong detection and classification capabilities for PII. These findings highlight the effectiveness and promise of our proposed approach in addressing the challenge of protecting personal data within educational settings through automated and efficient means. The model is currently applicable to English texts, with potential for adaptation to other languages.
+
+
 
