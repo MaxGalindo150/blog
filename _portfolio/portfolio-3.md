@@ -822,92 +822,72 @@ Here we observe the trainer's behavior:
 
 
 ```python
-# Tus datos de eval_precision
+# eval_precision
 eval_precisions = [x for x in trainer.state.log_history if 'eval_precision' in x]
 eval_precisions = [x['eval_precision'] for x in eval_precisions]
 
-# Tus datos de eval_recall
+# eval_recall
 eval_recalls = [x for x in trainer.state.log_history if 'eval_recall' in x]
 eval_recalls = [x['eval_recall'] for x in eval_recalls]
 
-# Tus datos de eval_f1
+# eval_f1
 eval_f1s = [x for x in trainer.state.log_history if 'eval_f1' in x]
 eval_f1s = [x['eval_f1'] for x in eval_f1s]
 
-# Tus datos de training_loss
+# training_loss
 training_losses = [x for x in trainer.state.log_history if 'loss' in x]
 training_losses = [x['loss'] for x in training_losses]
 
-# Crear una nueva figura para eval_precision
 plt.figure(figsize=(10, 6))
 
-# Dibujar los datos de eval_precision con puntos
 plt.plot(eval_precisions, label='Eval Precision', linewidth=2, marker='o')
 
-# Añadir títulos y etiquetas
 plt.title('Eval Precision Over Time')
 plt.grid(True)
 plt.xlabel('Evaluation Steps')
 plt.ylabel('Precision')
 
-# Añadir una leyenda
 plt.legend()
 
-# Mostrar la gráfica
 plt.show()
 
-# Crear una nueva figura para eval_recall
 plt.figure(figsize=(10, 6))
 
-# Dibujar los datos de eval_recall con puntos
 plt.plot(eval_recalls, label='Eval Recall', linewidth=2, marker='o')
 
-# Añadir títulos y etiquetas
 plt.title('Eval Recall Over Time')
 plt.grid(True)
 plt.xlabel('Evaluation Steps')
 plt.ylabel('Recall')
 
-# Añadir una leyenda
 plt.legend()
 
-# Mostrar la gráfica
 plt.show()
 
-# Crear una nueva figura para eval_f1
 plt.figure(figsize=(10, 6))
 
-# Dibujar los datos de eval_f1 con puntos
 plt.plot(eval_f1s, label='Eval F1 Score', linewidth=2, marker='o')
 
-# Añadir títulos y etiquetas
 plt.title('Eval F1 Score Over Time')
 plt.grid(True)
 plt.xlabel('Evaluation Steps')
 plt.ylabel('F1 Score')
 
-# Añadir una leyenda
 plt.legend()
 
-# Mostrar la gráfica
 plt.show()
 
-# Crear una nueva figura para training_loss
 plt.figure(figsize=(10, 6))
 
-# Dibujar los datos de training_loss con puntos
 plt.plot(training_losses, label='Training Loss', linewidth=2, marker='o')
 
-# Añadir títulos y etiquetas
 plt.title('Training Loss Over Time')
 plt.grid(True)
 plt.xlabel('Training Steps')
 plt.ylabel('Loss')
 
-# Añadir una leyenda
 plt.legend()
 
-# Mostrar la gráfica
 plt.show()
 ```
 
