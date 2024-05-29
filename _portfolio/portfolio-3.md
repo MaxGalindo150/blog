@@ -574,7 +574,7 @@ def compute_metrics(pred):
 
 ```
 
-This function takes the model's predictions (`pred.predictions`) and the actual labels (`pred.label_ids`). It uses CFG.id2label dictionaries to convert predicted indices and actual labels into their respective class names, excluding special tokens (-100).
+This function takes the model's predictions (`pred.predictions`) and the actual labels (`pred.label_ids`). It uses `CFG.id2label` dictionaries to convert predicted indices and actual labels into their respective class names, excluding special tokens (-100).
 
 ## 🤖 Training Configuration and Model Training
 - Next, we set up the training configuration in TrainingArguments, which controls how the training process will proceed:
@@ -594,13 +594,12 @@ training_args = TrainingArguments(
     evaluation_strategy="epoch",
     learning_rate=CFG.lr,
     per_device_train_batch_size=CFG.train_batch_size,
-    per_device_eval_batch_size=CFG.eval_batch_size,  # Adjust as needed
+    per_device_eval_batch_size=CFG.eval_batch_size,  
     num_train_epochs=CFG.epochs,
     #gradient_accumulation_steps=2,
     #fp16=True,
     weight_decay=0.01,
     logging_steps=100,
-    # You can add more arguments as needed
 )
 
 trainer = Trainer(
