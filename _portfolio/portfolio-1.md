@@ -1,6 +1,6 @@
 ---
 title: "NSGA-II"
-excerpt: "This project is to implement the NSGA-II algorithm"
+excerpt: "This project is to implement the NSGA-II algorithm."
 collection: portfolio
 ---
 
