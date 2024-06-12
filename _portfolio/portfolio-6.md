@@ -23,7 +23,7 @@ In this notebook, we present the project of training a naive Bayesian classifier
 ## Importamos librerias
 
 
-En esta ocasión, nos apoyaremos en la biblioteca scikit-learn, que cuenta con varios clasificadores y una herramienta muy sencilla para entrenar nuestros modelos.
+This time, we will rely on the scikit-learn library, which has several classifiers and a very simple tool for training our models.
 
 
 
